@@ -19,9 +19,12 @@ const services = [
 ];
 
 const reviews = [
+  { name: 'Sydni D.B.', text: 'Every single visit, my dog comes back looking like a brand-new puppy.' },
+  { name: 'Heather G.', text: 'I love the professionalism and how patient Melissa is with my nervous dog.' },
+  { name: 'Kimberly B.F.', text: 'My rescue was matted and meand as could be — nobody else would touch her. Melissa cleaned her up head to toe.' },
+  { name: 'Andrea V.B.', text: 'A clean, welcoming space. I now bring both of my dogs here regularly.' },
   { name: 'Kristen B.', text: 'My senior German Shepherd was treated patiently and with real care.' },
-  { name: 'Kimberly B.F.', text: 'My rescue was matted and difficult. Melissa cleaned her up from head to toe.' },
-  { name: 'Sydni D.B.', text: 'Every single visit, my dog comes back looking like a brand-new puppy.' }
+  { name: 'Michelle O.H.', text: 'My first visit for all three dogs—and they all looked adorable.' }
 ];
 
 const $ = (selector) => document.querySelector(selector);
